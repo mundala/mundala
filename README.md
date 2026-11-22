@@ -24,7 +24,7 @@ I'm studying Python and use AI coding assistants (Claude Code, Codex, Gemini). I
 | :--- | :--- | :--- | :--- |
 | **vllm-bench-thai** | Python · vLLM | Work in progress, no results yet. Compares FP16, AWQ and FP8 on one rented GPU, with a Thai quality check. | [Repo](https://github.com/mundala/vllm-bench-thai) |
 | **Namrin Market** | React 18 · TypeScript · Cloudflare Workers | Voice-first ESL game for young learners, built with the Web Speech API. | [Live](https://namrin-market.pordrummerr.workers.dev) · [Repo](https://github.com/mundala/namrinmarket) |
-| **Venue booking prototype** | React · TypeScript · Gemini API · Cloudflare Workers | Booking prototype built for a venue that has since closed. | [Repo](https://github.com/mundala/mamao-club-booking) |
+| **Venue booking prototype** | React · TypeScript · Cloudflare Pages Functions · D1 | Booking prototype built for a venue that has since closed. | [Repo](https://github.com/mundala/mamao-club-booking) |
 | **Mood On Studio** | HTML · CSS · JavaScript | Static marketing site built for a client. | [Live](https://mood-onstudio.com) · [Repo](https://github.com/mundala/mood-on-studio-site) |
 
 Private repo, happy to walk through it: webhook design using HMAC verification, idempotency, queues and fail-closed behaviour.

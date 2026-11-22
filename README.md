@@ -25,7 +25,7 @@ I'm studying Python and use AI coding assistants (Claude Code, Codex, Gemini). I
 | :--- | :--- | :--- | :--- |
 | **vllm-bench-thai** | Python · vLLM | Work in progress, no results yet. Compares FP16, AWQ and FP8 on one rented GPU, with a Thai quality check. | [Repo](https://github.com/mundala/vllm-bench-thai) |
 | **Namrin Market** | React 18 · TypeScript · Cloudflare Workers | Voice-first ESL game for young learners, built with the Web Speech API. | [Live](https://namrin-market.pordrummerr.workers.dev) · [Repo](https://github.com/mundala/namrinmarket) |
-| **Tablehold** | JavaScript · Cloudflare Pages Functions · D1 · Resend | Self-hosted booking template for small businesses. Spec-driven, 46 automated tests, light and dark themes. | [Repo](https://github.com/mundala/tablehold) |
+| **Tablehold** | JavaScript · Cloudflare Pages Functions · D1 · Resend | Self-hosted booking template for small businesses. Spec-driven, 48 automated tests, light and dark themes. | [Repo](https://github.com/mundala/tablehold) |
 | **Mamao Club booking (v1)** | React · TypeScript · Cloudflare Pages Functions · D1 | The original booking app for a venue that has since closed. Tablehold rebuilds it; its README lists each problem and the fix. | [Repo](https://github.com/mundala/mamao-club-booking) |
 | **Mood On Studio** | HTML · CSS · JavaScript | Static marketing site built for a client. | [Live](https://mood-onstudio.com) · [Repo](https://github.com/mundala/mood-on-studio-site) |
 

@@ -1,50 +1,38 @@
-# Hi, I'm Jean H. Wehbe 👋
+# Jean H. Wehbe
 
-**AI-Native Product Builder · Agent Workflow Operator · Thai-English AI Evaluation**  
-📍 Melbourne, Australia · 🇹🇭 Native Thai / 🇦🇺 Fluent English · [LinkedIn](https://linkedin.com/in/jean-h-wehbe) · [Email](mailto:jeanh.wehbe@gmail.com)
+**LLM safety and evaluation · learning Python and inference**  
+Melbourne, Australia · Native Thai / Fluent English · [LinkedIn](https://linkedin.com/in/jean-h-wehbe) · [Email](mailto:jeanh.wehbe@gmail.com)
 
----
+I'm a former hospitality operator and chef. I built booking tools and automation for my own venues, which is how I got into software. Today I lead an LLM safety and evaluation team on a contract basis (since Oct 2026), after earlier Thai-language annotation and review work. I review model responses against guidelines and write the rationale behind each judgement.
 
-### ⚡ About Me
+I'm studying Python and use AI coding assistants (Claude Code, Codex, Gemini). I direct, review and test what they produce, and I say so in each repo.
 
-I build AI systems that businesses actually run on, and I make sure the data and logic underneath them are reliable. 
-
-I turn ambiguous business problems into working software by directing AI agents across the full delivery cycle: requirements discovery, architecture, implementation, automated testing, hallucination detection, and edge deployment.
-
-- 🚀 **Shipped Products:** 6 public portfolio projects, including 3 live web deployments across voice, generative AI, analytics, and marketing.
-- 🔬 **Frontier AI Evaluation:** Hands-on experience evaluating Speech-to-Speech (S2S) and multimodal frontier models against published rubrics (hallucination detection, prosody, register, and cultural accuracy).
-- 🛠️ **Systems & Automation:** Real-world operations background (venue co-operator & hospitality leadership) connecting POS, n8n webhooks, Python financial models, and edge infrastructure.
+**Start here:** [vllm-bench-thai](https://github.com/mundala/vllm-bench-thai) · [Namrin Market (live)](https://namrin-market.pordrummerr.workers.dev) · [Mood On Studio (live)](https://mood-onstudio.com)
 
 ---
 
-### 🌟 Featured Projects & Live Deployments
+### Now
 
-| Project | Tech Stack | Description | Live Demo / Source |
+- Building [vllm-bench-thai](https://github.com/mundala/vllm-bench-thai): a benchmark of FP16, AWQ and FP8 configurations on vLLM, covering inference speed, cost and a Thai-language quality check. Work in progress, no results yet.
+- Looking for entry or junior roles in AI engineering, applied LLMs or model evaluation, in Melbourne or remote.
+
+---
+
+### Projects
+
+| Project | Stack | Notes | Links |
 | :--- | :--- | :--- | :--- |
-| **Namrin Market** | React 18 · TypeScript · Web Speech API · Cloudflare Workers | Voice-only ESL educational game for young learners with 3-alternative phonetic matching and custom merchant TTS profiles. | [🎮 Live Demo](https://namrin-market.pordrummerr.workers.dev) · [💻 Repo](https://github.com/mundala/namrinmarket) |
-| **Growth & Decision Console** | Vanilla JS · HTML5 Canvas · Zero Dependencies | Single-file analytics and forecasting dashboard modeling a ฿35.4M pipeline with a built-in synthetic data integrity audit engine. | [📊 View Repo](https://github.com/mundala/growth-console) |
-| **Mamao Venue Booking** | React · TypeScript · Gemini API · Cloudflare Workers · Pi 5 | Responsive 4-step reservation prototype that automatically generates bespoke digital souvenir artwork via Google Gemini. | [🎟️ Live Demo](https://book.mamaogang.com) · [💻 Repo](https://github.com/mundala/mamao-club-booking) |
-| **Mood On Studio** | Semantic HTML5 · Modular CSS · JSON-LD · Netlify | High-performance architectural portfolio platform featuring 11 case studies, accessible navigation, and AVIF image optimization. | [🌐 Live Site](https://mood-onstudio.com) · [💻 Repo](https://github.com/mundala/mood-on-studio-site) |
-| **FlyCommerce Delivery Middleware** | Cloudflare Workers · D1 · Queues | Webhook-to-delivery-API bridge for a multi-vendor marketplace: HMAC-verified webhooks, idempotent job records, queued retries, and fail-closed config validation. | [💻 Repo](https://github.com/mundala/flycommerce-delivery-middleware) |
-| **Sirloon Ops HUD** | Python · pygame · Docker SDK · psutil | Raspberry Pi PiTFT status display rendering straight to the framebuffer: live CPU/mem/disk, container health, and network state on a 320×240 touchscreen. | [💻 Repo](https://github.com/mundala/sirloon-ops-hud) |
+| **vllm-bench-thai** | Python · vLLM | Work in progress, no results yet. Compares FP16, AWQ and FP8 on one rented GPU, with a Thai quality check. | [Repo](https://github.com/mundala/vllm-bench-thai) |
+| **Namrin Market** | React 18 · TypeScript · Cloudflare Workers | Voice-first ESL game for young learners, built with the Web Speech API. | [Live](https://namrin-market.pordrummerr.workers.dev) · [Repo](https://github.com/mundala/namrinmarket) |
+| **Venue booking prototype** | React · TypeScript · Gemini API · Cloudflare Workers | Booking prototype built for a venue that has since closed. | [Repo](https://github.com/mundala/mamao-club-booking) |
+| **Mood On Studio** | HTML · CSS · JavaScript | Static marketing site built for a client. | [Live](https://mood-onstudio.com) · [Repo](https://github.com/mundala/mood-on-studio-site) |
+
+Private repo, happy to walk through it: webhook design using HMAC verification, idempotency, queues and fail-closed behaviour.
 
 ---
 
-### 🛠️ Technical Toolkit
+### Toolkit
 
-```text
-┌── AI & Agents ───────────── Claude Code · OpenAI · Google Gemini · Hermes · Ollama (Local) · Prompt Engineering
-├── Build & Front-End ─────── Python · TypeScript · JavaScript · React · HTML5/CSS3 · Vite · Web Speech API
-├── Automation & Data ─────── n8n · REST APIs · Webhooks · HTML5 Canvas · Financial Modeling · Data QA
-├── Deployment & Infra ────── Cloudflare Workers · D1 · Queues · Netlify · Docker · Tailscale Mesh · Raspberry Pi 5 · Linux
-├── Embedded & Systems ────── pygame (framebuffer) · psutil · systemd · PiTFT/SPI displays
-└── Evaluation & QA ───────── S2S Voice Testing · Hallucination Audits · Rubric Design · Thai-English Register QA
-```
-
----
-
-### 📬 Connect With Me
-
-- 💼 **LinkedIn:** [linkedin.com/in/jean-h-wehbe](https://linkedin.com/in/jean-h-wehbe)
-- ✉️ **Email:** [jeanh.wehbe@gmail.com](mailto:jeanh.wehbe@gmail.com)
-- 📍 **Location:** Melbourne, VIC, Australia (AEST / AEDT)
+- **Evaluation work:** LLM safety review, Thai-English bilingual QA, rubric grading.
+- **Used in AI-assisted projects:** React, TypeScript, HTML/CSS, Cloudflare Workers, Gemini API.
+- **Learning:** Python, vLLM, quantisation (AWQ, FP8), inference benchmarking.

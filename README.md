@@ -14,7 +14,7 @@ I'm studying Python and use AI coding assistants (Claude Code, Codex, Gemini). I
 ### Now
 
 - Released [Tablehold](https://github.com/mundala/tablehold): a booking site a small business can self-host for free on Cloudflare. I rebuilt it from the booking app I ran at my own venue, fixed each problem the old one had, and wrote the rules down as specs so an owner's coding agent can restyle it without breaking them.
-- Building [vllm-bench-thai](https://github.com/mundala/vllm-bench-thai): a benchmark of FP16, AWQ and FP8 configurations on vLLM, covering inference speed, cost and a Thai-language quality check. Work in progress, no results yet.
+- Building [vllm-bench-thai](https://github.com/mundala/vllm-bench-thai): a benchmark of FP16, AWQ and FP8 configurations on vLLM, covering inference speed, cost and a Thai-language quality check. Ollama baseline done on a laptop CPU (qwen2.5:7b, about 3.2 tokens/s). vLLM runs on a rented GPU not started yet.
 - Looking for entry or junior roles in AI engineering, applied LLMs or model evaluation, in Melbourne or remote.
 
 ---
@@ -23,7 +23,7 @@ I'm studying Python and use AI coding assistants (Claude Code, Codex, Gemini). I
 
 | Project | Stack | Notes | Links |
 | :--- | :--- | :--- | :--- |
-| **vllm-bench-thai** | Python · vLLM | Work in progress, no results yet. Compares FP16, AWQ and FP8 on one rented GPU, with a Thai quality check. | [Repo](https://github.com/mundala/vllm-bench-thai) |
+| **vllm-bench-thai** | Python · vLLM | Ollama baseline done on a laptop CPU (qwen2.5:7b, about 3.2 tokens/s). vLLM runs not started. Will compare FP16, AWQ and FP8 on one rented GPU, with a Thai quality check. | [Repo](https://github.com/mundala/vllm-bench-thai) |
 | **Namrin Market** | React 18 · TypeScript · Cloudflare Workers | Voice-first ESL game for young learners, built with the Web Speech API. | [Live](https://namrin-market.pordrummerr.workers.dev) · [Repo](https://github.com/mundala/namrinmarket) |
 | **Tablehold** | JavaScript · Cloudflare Pages Functions · D1 · Resend | Self-hosted booking template for small businesses. Spec-driven, 48 automated tests, light and dark themes. | [Repo](https://github.com/mundala/tablehold) |
 | **Mamao Club booking (v1)** | React · TypeScript · Cloudflare Pages Functions · D1 | The original booking app for a venue that has since closed. Tablehold rebuilds it; its README lists each problem and the fix. | [Repo](https://github.com/mundala/mamao-club-booking) |
